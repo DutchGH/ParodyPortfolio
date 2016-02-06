@@ -8,36 +8,37 @@ html,body {
 }
 
 
-#navbar ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #393D3F;
-  position:fixed;
-  top: 0;
-  width: 100%;
-    
+
+#navbar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+#navbar li
+{
+    float:left;
 }
 
 
-#navbar li{
-  float: left;
+#navbar li a
+{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
 }
 
-#navbar li a{
-  display: block;
-  color: #FDFDFF;
-  text-align: center;
-  padding: 20px 20px;
-  text-decoration: none;
+#navbar li a:hover:not(.active)
+{
+    background-color: #111111;
 }
-#navbar li a:hover{
-  background-color: #212324;
-}
+
 #navbar .active
 {
-  background-color: #62929E;
-  color: #FDFDFF;
-  font-weight: bold;
+    background-color: teal;
 }
