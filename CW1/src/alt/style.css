@@ -8,7 +8,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 label {
@@ -19,7 +19,7 @@ label {
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background: #fff;
@@ -75,8 +75,12 @@ html, body {
     height: 100%;
 }
 
-body {
-    background: url(space.jpg) 50% 50%/cover;
+#home  {
+    background: url("space.jpg") 50% 50%/cover;
+}
+
+#about {
+    background:url(sw.jpg) 50% 50%/cover
 }
 
 p {
@@ -114,4 +118,5 @@ p {
 display: block;
 font-size: 26px;
 }
+
 
