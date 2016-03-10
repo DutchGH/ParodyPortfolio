@@ -34,6 +34,35 @@ header p
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
+
+
+header ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding-top:0px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+#navbar li
+{
+    float:left;
+}
+
+
+
+.button {
+    display: block;
+    position:fixed;
+    font-family:'Roboto', sans-serif;
+    padding: 30px;
+    background-color: rgb(32,42,44);
+    text-decoration: none;
+    color: white;
+}
+
+
 p
 {
     display: block;
