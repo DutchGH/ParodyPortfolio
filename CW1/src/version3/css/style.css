@@ -1,0 +1,44 @@
+header {
+display: block;
+height: 100px;
+position: absolute;
+width: 100%;
+background:#1A1A1A;
+top: 0;
+left: 0;
+text-align: center;
+}
+
+header h1
+{
+    color: white;
+    margin: 0 10px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    padding-top: top
+}
+
+header h1 span
+{
+    width: 36px;
+    color: #00868B;
+    text-align: center;
+    margin: 0 2px;
+ }
+
+header p
+{
+    color: white;
+    padding: 8px;
+    margin:0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+p
+{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
