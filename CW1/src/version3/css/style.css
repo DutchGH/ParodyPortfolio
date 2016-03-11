@@ -1,3 +1,7 @@
+body
+{
+    background: rgb(250,250,250);
+}
 header {
 display: block;
 height: 100px;
@@ -18,10 +22,31 @@ header h1
     padding-top: top
 }
 
+#home-title span
+{
+    color: rgb(22,191,255);
+
+}
+
+#about-title span
+{
+ 
+    color: green;
+}
+
+#portfolio-title span
+{
+    color: red
+}
+
+#contact-title span
+{
+    color:purple
+}
+
 header h1 span
 {
     width: 36px;
-    color: rgb(22,191,255);
     text-align: center;
     margin: 0 2px;
  }
@@ -36,32 +61,42 @@ header p
 }
 
 
-header ul
+#navbar ul
 {
-    list-style-type: none;
+    float: none;
     margin: 0;
-    padding-top:0px;
-    padding-right: 10px;
+    padding:0;
     overflow: hidden;
+    background-color: rgb(32,42,44);
 }
 
 #navbar li
 {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+#navbar li a
+{
     float:left;
-}
-
-
-
-.button {
-    display: block;
-    position:fixed;
-    font-family:'Roboto', sans-serif;
-    padding: 30px;
-    background-color: rgb(32,42,44);
-    text-decoration: none;
+    font-size: 9pt;
+    font-family: 'roboto', sans-serif;
+    text-transform: uppercase;
+    display:inline-block;
     color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
 }
 
+
+#title-bar
+{
+-moz-box-shadow: 2px 4px 12px rgba(0,0,0,.5);
+-webkit-box-shadow: 2px 4px 12px rgba(0,0,0,.5);
+box-shadow: 2px 4px 12px rgba(0,0,0,.5);
+}
 
 p
 {
@@ -71,3 +106,13 @@ p
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
 }
+
+#content
+{
+    font-family: 'roboto', sans-serif;
+    text-align: left;
+    padding: 150px 10px;
+    margin-right: 250px;
+    
+}
+
