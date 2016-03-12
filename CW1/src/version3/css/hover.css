@@ -2445,8 +2445,11 @@
   right: 0;
 }
 
-/* Underline From Center */
-.hvr-underline-from-center {
+
+/*----------------ADAPT THIS SHIT-----------------------------*/
+
+/* Underline From Center - BLUE */
+.hvr-underline-from-center-blue {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -2458,14 +2461,14 @@
   position: relative;
   overflow: hidden;
 }
-.hvr-underline-from-center:before {
+.hvr-underline-from-center-blue:before {
   content: "";
   position: absolute;
   z-index: -1;
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #2098d1;
+  background: #16BFFF;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -2474,11 +2477,114 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+.hvr-underline-from-center-blue:hover:before, .hvr-underline-from-center-blue:focus:before, .hvr-underline-from-center-blue:active:before {
   left: 0;
   right: 0;
 }
 
+/* Underline From Center - GREEN */
+.hvr-underline-from-center-green {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center-green:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2bdc33;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center-green:hover:before, .hvr-underline-from-center-green:focus:before, .hvr-underline-from-center-green:active:before {
+  left: 0;
+  right: 0;
+}
+
+/* Underline From Center - RED */
+.hvr-underline-from-center-red {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center-red:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #ff5747;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center-red:hover:before, .hvr-underline-from-center-red:focus:before, .hvr-underline-from-center-red:active:before {
+  left: 0;
+  right: 0;
+}
+
+/* Underline From Center - PURPLE*/
+.hvr-underline-from-center-purple{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center-purple:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #663399;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center-purple:hover:before, .hvr-underline-from-center-purple:focus:before, .hvr-underline-from-center-purple:active:before {
+  left: 0;
+  right: 0;
+}
+
+/*----------------ADAPT THIS SHIT-----------------------------*/
 /* Underline From Right */
 .hvr-underline-from-right {
   display: inline-block;
