@@ -24,24 +24,24 @@ header h1
 
 #home-title span
 {
-    color: rgb(22,191,255);
+    color: #16BFFF;
 
 }
 
 #about-title span
 {
  
-    color: green;
+    color: #2bdc33;
 }
 
 #portfolio-title span
 {
-    color: red
+    color: #ff5747
 }
 
 #contact-title span
 {
-    color:purple
+    color:#CD00CD
 }
 
 header h1 span
@@ -60,9 +60,9 @@ header p
     text-transform: uppercase;
 }
 
-
 #navbar ul
 {
+    list-style-type: none;
     float: none;
     margin: 0;
     padding:0;
@@ -79,7 +79,6 @@ header p
 
 #navbar li a
 {
-    float:left;
     font-size: 9pt;
     font-family: 'roboto', sans-serif;
     text-transform: uppercase;
@@ -88,6 +87,24 @@ header p
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
+}
+
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(32,42,44);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 
