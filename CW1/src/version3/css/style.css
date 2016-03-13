@@ -19,7 +19,13 @@ header h1
     margin: 0 10px;
     padding-top: 20px;
     font-family: 'Roboto', sans-serif;
-    padding-top: top
+    padding-top: top;
+}
+
+header a
+{
+    color:inherit;
+    text-decoration: none;
 }
 
 #home-title span
@@ -89,7 +95,12 @@ header p
     text-decoration: none;
 }
 
+.drop-ico {
+   background: url("images/down-arrow.png")  right no-repeat ;
+    background-size:10%;
+    padding: 0 5px 0px 0;
 
+}
 
 li.dropdown {
     display: inline-block;
@@ -106,6 +117,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
 
 
 #title-bar
