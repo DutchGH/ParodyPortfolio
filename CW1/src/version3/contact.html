@@ -29,19 +29,51 @@
 </nav>
 </div>
 </header>
-<div class = "content">
+
 <section>
 <h2>You can send me an email if you want.</h2>
 <p>Just don't send me spam, I hate it as much as you do.</p>
-<div class="container">  
- </div>
-
+<form action="" id = msgform>
+  Name:<br>
+  <input type="text" name="name" value="" style= "width: 50%"><br>
+  Email:<br>
+  <input type="text" name="email" value="" style= "width: 50%"><br>
+  Message:<br>
+    <textarea name="messge" form="msgform" style= "width: 75%; height:10em"></textarea><br><br>
+  <input type="button" onclick="alert('Thank you, your email has been sent.')" value="Send">
+</form>
 </section>
 
 <aside>
 <div class="sidebar1">
-    <h3>Jacob Holland</h3>
-    <p>If you would like the navigation along the top, simply move the ul.nav to the top of the page and recreate the styling.</p>
+    <h3><u>Contact Details</u></h3>
+<div id = "profile-image">
+<div class="image-wrapper">
+<img src="images/profile.jpg" class="scale-image img-circle" alt="A classy picture of my avatar, because I hate cameras">
+</div>
+</div>
+<table style="width:100%" class="contact-table">
+</tr>
+<tr>
+<th>Name:</th>
+</tr>
+<tr>
+<td>Jacob Holland</td> 
+</tr>
+<tr>
+<th>Email:</th>
+</tr>
+<tr>
+ <td><a href = "mailto:jacob.holland@outlook.com">jacob.holland@outlook.com</a></td>
+</tr>
+<tr>
+<th>Phone:</th>
+</tr>
+<tr>
+<td>01189998819991197253</a></td>
+</tr>
+
+</table>
 </div>
 </aside>
 
