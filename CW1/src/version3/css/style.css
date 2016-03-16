@@ -7,10 +7,18 @@ section
     padding-bottom: 2em;
 }
 
-.image-wrapper
+figcaption
 {
-    /*max-width: 300px;*/
+    text-align: center;
 }
+
+.image-wrapper-websites img
+{
+    position:relative;
+    width:100%;
+    max-width: 100%;
+}
+
 
 body
 {
@@ -355,6 +363,30 @@ max-width: 100%;
 		width: 30%;
 		margin-bottom: 1em;
 	}
+    
+    .content-wrapper section
+	{
+		float: left;
+		width: 40%;
+        padding-right: 10%;
+		margin-bottom: 1em;
+	}
+
+	.content-wrapper aside
+	{
+		float: left;
+		width: 50%;
+		margin-bottom: 1em;
+	}
+    
+    .image-wrapper-websites img
+    {
+        position:relative;
+        width: 400px;
+
+    }
+   
+    
 
 }
 
