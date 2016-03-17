@@ -1,6 +1,8 @@
+
 *{
     font-family: 'roboto', sans-serif;
 }
+
 
 section
 {
@@ -9,9 +11,10 @@ section
 
 footer
 {
-    padding-top: 2em;
-    font-size: 0.8em;
+    clear: both;
+    padding-top:2em;
     text-align: center;
+    font-size:0.8em;
 }
 
 figcaption
@@ -487,6 +490,7 @@ max-width: 100%;
 	{
 		float: left;
 		width: 30%;
+        padding-right: 5%
 		margin-bottom: 1em;
 	}
     
