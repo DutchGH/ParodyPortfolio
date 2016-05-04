@@ -17,6 +17,15 @@ p {
     line-height: 2rem;
 }
 
+.about-points
+{
+    text-align: left;
+}
+.points li
+{
+    list-style: inside;
+}
+
 .strong {
     font-weight: 500;
 }
