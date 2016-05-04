@@ -54,6 +54,10 @@ welcome-bg {
     color: rgba(255, 255, 255, .9);
 }
 
+.section
+{
+    margin-top: 2em;
+}
 .parallax-container .section {
     width: 100%;
 }
@@ -97,4 +101,17 @@ footer.page-footer .footer-copyright {
 
 footer.page-footer {
     margin: 0;
+}
+
+.submit-button
+{
+    margin-top: 25px !important;
+}
+
+h2.card-title-top {
+	font-size: 21px;
+	font-weight: 400;
+	padding: 0px 20px;
+	border-bottom: 1px solid #eee;
+
 }
