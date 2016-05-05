@@ -9,7 +9,7 @@
     <link type="text/css" rel="stylesheet" href="css/styles.css" media="screen,projection" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JAPH - Home</title>
+    <title>JAPH - Portfolio: Programming</title>
 </head>
 
 <body>
@@ -17,6 +17,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
+
 
     <!-- Dropdown Structure -->
     <ul id="dropdown1" class="dropdown-content">
@@ -27,10 +29,10 @@
         <div class="nav-wrapper">
             <a href="index.html" class="brand-logo center"><span class="thin">Jacob</span>Holland</a>
             <ul class="right hide-on-med-and-down">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <!-- Dropdown Trigger -->
-                <li><a class="dropdown-button" data-activates="dropdown1" data-constrainwidth="false">Portfolio<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li class="active"><a class="dropdown-button" data-activates="dropdown1" data-constrainwidth="false">Portfolio<i class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
 
@@ -64,6 +66,9 @@
                         <div class="row center">
                             <h5 class="header col s12 light flow-text">My programming projects are still in their infancy. More TBA.</h5>
                         </div>
+                        <div class="row center">
+                            <a class="waves-effect waves-light btn red darken-4" href="#content"><i class="material-icons right">settings_overscan</i>Go To Content</a>
+                        </div>
                     </div>
                 </div>
                 <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 1"></div>
@@ -74,91 +79,90 @@
 
         <div class="container">
             <div class="section">
-
-                <div class="row">
-                    <div class="col s12 m6 l4">
-                        <div class="card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <h2 class="left-align card-title-top">JumpMan</h2>
-                                <div class="valign-wrapper card-img-wrap">
-                                    <img class="activator" src="images/jumpMan.jpg" alt="jumpMan screenshot" title="claromentis website">
+                <div id="content">
+                    <div class="row">
+                        <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <h2 class="left-align card-title-top">JumpMan</h2>
+                                    <div class="valign-wrapper card-img-wrap">
+                                        <img class="activator" src="images/jumpMan.jpg" alt="jumpMan screenshot" title="claromentis website">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator brand-text blue-text">Read more<i class="mdi-navigation-more-vert right"></i></span>
+                                    <p>Programming Project - Year 1</p>
+                                </div>
+                                <div style="display: none; transform: translateY(0px);" class="card-reveal">
+                                    <div class="rev-title-wrap">
+                                        <span class="card-title activator brand-text blue-text">JumpMan<i class="mdi-navigation-close blue-text right"></i></span>
+                                        <p>Video game - C (using SDL)</p>
+                                    </div>
+                                    <p>
+                                        I was tasked for making an application using the SDL graphics library. This is what I came up with..
+                                        <br>
+                                        <br> It's a sidescroller (similar to something like Super Mario Bros) with basic enemy sprites and jumping mechanics.
+                                    </p>
+                                    <p class="center"><b>Download Links:</b></p>
+                                    <p class="center">Coming soon....</p>
                                 </div>
                             </div>
-                            <div class="card-content">
-                                <span class="card-title activator brand-text blue-text">Read more<i class="mdi-navigation-more-vert right"></i></span>
-                                <p>Programming Project - Year 1</p>
-                            </div>
-                            <div style="display: none; transform: translateY(0px);" class="card-reveal">
-                                <div class="rev-title-wrap">
-                                    <span class="card-title activator brand-text blue-text">JumpMan<i class="mdi-navigation-close blue-text right"></i></span>
-                                    <p>Video game - C (using SDL)</p>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <h2 class="left-align card-title-top">JumpMan</h2>
+                                    <div class="valign-wrapper card-img-wrap">
+                                        <img class="activator" src="images/jumpMan.jpg" alt="jumpMan screenshot" title="claromentis website">
+                                    </div>
                                 </div>
-                                <p>
-                                    I was tasked for making an application using the SDL graphics library. This is what I came up with..
-                                    <br>
-                                    <br> It's a sidescroller (similar to something like Super Mario Bros) with basic enemy sprites and jumping mechanics.
-                                </p>
-                                <p class="center"><b>Download Links:</b></p>
-                                <p class= "center">Coming soon....</p>
-              </div>
-            </div>
-          </div>
-            <div class="col s12 m6 l4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <h2 class="left-align card-title-top">JumpMan</h2>
-                <div class="valign-wrapper card-img-wrap">
-                  <img class="activator" src="images/jumpMan.jpg" alt="jumpMan screenshot" title="claromentis website">
-                </div>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator brand-text blue-text">Read more<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Programming Project - Year 1</p>
-              </div>
-              <div style="display: none; transform: translateY(0px);" class="card-reveal">
-                <div class="rev-title-wrap">
-                  <span class="card-title activator brand-text blue-text">JumpMan<i class="mdi-navigation-close blue-text right"></i></span>
-                  <p>Video game - C (using SDL)</p>
-                </div>
-                <p>
-                 I was tasked for making an application using the SDL graphics library.
-                This is what I came up with..<br><br>
-                It's a sidescroller (similar to something like Super Mario Bros) with basic
-                    enemy sprites and jumping mechanics.
-                </p>
-                  <p class = "center"><b>Download Links:</b></p>
-              </div>
-            </div>
-          </div>
-            <div class="col s12 m6 l4">
-            <div class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <h2 class="left-align card-title-top">JumpMan</h2>
-                <div class="valign-wrapper card-img-wrap">
-                  <img class="activator" src="images/jumpMan.jpg" alt="jumpMan screenshot" title="claromentis website">
-                </div>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator brand-text blue-text">Read more<i class="mdi-navigation-more-vert right"></i></span>
-                <p>Programming Project - Year 1</p>
-              </div>
-              <div style="display: none; transform: translateY(0px);" class="card-reveal">
-                <div class="rev-title-wrap">
-                  <span class="card-title activator brand-text blue-text">JumpMan<i class="mdi-navigation-close blue-text right"></i></span>
-                  <p>Video game - C (using SDL)</p>
-                </div>
-                <p>
-                 I was tasked for making an application using the SDL graphics library.
-                This is what I came up with..<br><br>
-                It's a sidescroller (similar to something like Super Mario Bros) with basic
-                    enemy sprites and jumping mechanics.
-                </p>
-                  <p class = "center"><b>Download Links:</b></p>
-              </div>
-            </div>
-          </div>
-        </div>
+                                <div class="card-content">
+                                    <span class="card-title activator brand-text blue-text">Read more<i class="mdi-navigation-more-vert right"></i></span>
+                                    <p>Programming Project - Year 1</p>
+                                </div>
+                                <div style="display: none; transform: translateY(0px);" class="card-reveal">
+                                    <div class="rev-title-wrap">
+                                        <span class="card-title activator brand-text blue-text">JumpMan<i class="mdi-navigation-close blue-text right"></i></span>
+                                        <p>Video game - C (using SDL)</p>
+                                    </div>
+                                    <p>
+                                        I was tasked for making an application using the SDL graphics library. This is what I came up with..
+                                        <br>
+                                        <br> It's a sidescroller (similar to something like Super Mario Bros) with basic enemy sprites and jumping mechanics.
+                                    </p>
+                                    <p class="center"><b>Download Links:</b></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <h2 class="left-align card-title-top">JumpMan</h2>
+                                    <div class="valign-wrapper card-img-wrap">
+                                        <img class="activator" src="images/jumpMan.jpg" alt="jumpMan screenshot" title="claromentis website">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator brand-text blue-text">Read more<i class="mdi-navigation-more-vert right"></i></span>
+                                    <p>Programming Project - Year 1</p>
+                                </div>
+                                <div style="display: none; transform: translateY(0px);" class="card-reveal">
+                                    <div class="rev-title-wrap">
+                                        <span class="card-title activator brand-text blue-text">JumpMan<i class="mdi-navigation-close blue-text right"></i></span>
+                                        <p>Video game - C (using SDL)</p>
+                                    </div>
+                                    <p>
+                                        I was tasked for making an application using the SDL graphics library. This is what I came up with..
+                                        <br>
+                                        <br> It's a sidescroller (similar to something like Super Mario Bros) with basic enemy sprites and jumping mechanics.
+                                    </p>
+                                    <p class="center"><b>Download Links:</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
             </div>
         </div>
     </main>
@@ -174,4 +178,5 @@
         </div>
     </footer>
 </body>
-</html>
+
+</html>s
