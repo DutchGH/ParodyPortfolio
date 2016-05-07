@@ -166,8 +166,21 @@ h2.card-title-top {
     {
         page-break-after: avoid;
     }
-  
-    
+    .card .card-image img
+    {
+        display: block;
+    }
+    .card .card-reveal
+    {
+        display: block !important;
+        transform: translateY(-100%) !important;
+        position: absolute !important;
+        width: auto;
+        page-break-after: auto!important;
+        overflow: auto;
+        height: 100%;
+        z-index: 1;
+    }
     
 
 !important}
